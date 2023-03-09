@@ -12,7 +12,7 @@
     <header style="border-bottom: 1px solid black;">
         <navbar class="container">
             <div class="navbar">
-                <img class=logo src="image/logo.png" alt="" />
+                <img class=logo src="./image/logo.png" alt="" />
                 <div class="menu">
                     <a href="#hero"><button class="menu-item">Home</button></a>
                     <a href="#package"><button class="menu-item">Our Package</button></a>
@@ -44,41 +44,15 @@
                                 <button class="slide-button" onclick="plusDivs(1)">Next</button>
                             </div>
                         </div>
-                        <!-- <script>
-                            var slideIndex = 1;
-                            showDivs(slideIndex);
-
-                            function plusDivs(n) {
-                                showDivs(slideIndex += n);
-                            }
-
-                            function showDivs(n) {
-                                var i;
-                                var imgArray = document.getElementsByClassName("testi-img");
-
-                                if (n > imgArray.length) slideIndex = 1;
-                                else if (n < 1) slideIndex = 3;
-
-                                for (let i = 0; i < imgArray.length; i++) {
-                                    imgArray[i].style.display = "none";
-                                }
-                                
-                                imgArray[slideIndex-1].style.display = "flex";
-                            }
-
-                            setInterval(() => {
-                                    plusDivs(1);
-                                }, 2500);
-                        </script> -->
                         <div class="testi-content">
                             <div class="content-caption">
                                 <p>"Liburan menjadi menyenangkan bersama Travel Agentku."</p>
                             </div>
                             <div class="content-person">
-                                <img src="https://picsum.photos/id/342/50" alt=""/>
+                                <img src="https://picsum.photos/id/91/50" alt=""/>
                                 <div class="person-info">
-                                    <h6>Florence Hughes</h6>
-                                    <p>Ibu Rumah Tangga, 28</p>
+                                    <h6>Michael W</h6>
+                                    <p>User, 26</p>
                                 </div>
                             </div>
                         </div>
@@ -128,21 +102,6 @@
                                     </div>
                                     <input class="send-btn" type="submit" value="Send">
                                 </form>
-                                <!-- <script>
-                                    function validateForm() {
-                                        var name = document.forms["contact-form"]["name"].value;
-                                        var email = document.forms["contact-form"]["email"].value;
-                                        var interest = document.forms["contact-form"]["interest"].value;
-
-                                        if (name == "" || email == "" || interest == "") {
-                                            alert ("Tidak boleh ada yang kosong");
-                                            return false;
-                                        }
-                                        
-                                        alert("Terima Kasih")
-                                        return false;
-                                    }
-                                </script> -->
                             </div>
                         </div>
                     </div>
@@ -233,5 +192,5 @@
         </div>
     </footer>
 </body>
-<script src="/js/app.js"></script>
+<script src="./js/app.js"></script>
 </html>
